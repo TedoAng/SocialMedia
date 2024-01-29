@@ -1,1 +1,4 @@
 php artisan make:model Post -m
+when creating migrations we need to consider the tables consistency, 
+to not run in to error when making a columns depending on not existing migrations
+https://youtu.be/WcAC9Nd-FmE?si=8xFu4WOD4WWJh5rh&t=1333
